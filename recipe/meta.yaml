@@ -25,14 +25,14 @@ requirements:
   run:
     - python >={{ python_min }}
     - click
-    - dask-core
+    - dask
     - fsspec
     - jsonschema
     - numcodecs
     - numpy
     - pyyaml
     - xarray
-    - zarr
+    - zarr >=3,<4
 
 test:
   imports:
@@ -54,7 +54,6 @@ extra:
     - konstntokas
     - forman
     - pont-us
-    - ruchimotwaniBC
     - TejasMorbagal
     - thomasstorm
     - TonioF
